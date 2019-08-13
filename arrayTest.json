@@ -1,0 +1,48 @@
+[
+    {
+        "ContractorName": "ACME",
+        "ContractorId": "1",
+        "CentersList": [
+            { 
+                "CenterName": "San Francisco",
+                "CenterId": "1"
+            },
+            { 
+                "CenterName": "San Diego",
+                "CenterId": "2"
+            },
+            { 
+                "CenterName": "Santa Barbara",
+                "CenterId": "3"
+            }
+        ]
+    },
+    {
+        "ContractorName": "Ohio Co",
+        "ContractorId": "2",
+        "CentersList": [
+            { 
+                "CenterName": "Arkon",
+                "CenterId": "1"
+            },
+            { 
+                "CenterName": "Ohio",
+                "CenterId": "2"
+            },
+            { 
+                "CenterName": "Boones",
+                "CenterId": "3"
+            }
+        ]
+    },
+    {
+        "ContractorName": "Wasu",
+        "ContractorId": "1",
+        "CentersList": [
+            { 
+                "CenterName": "Walla Walla",
+                "CenterId": "1"
+            }
+        ]
+    }
+]
