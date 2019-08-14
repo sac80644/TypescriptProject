@@ -1,23 +1,14 @@
 import $ from 'jquery';
-// import buildPDF from './pdf';
+import * as pdf from './pdf';
 
 
-export function callPdf() {
-    alert('here')
-}
-
-(<any>window).callPdf = callPdf;
+(<any>window).callPdf = pdf.buildPDF;
 
 
 $(document).ready(function(){
 
-    // var s = document.createElement("script");
-    // s.type = "text/javascript";
-    // s.text = "buildPDF();";
-    // window.document.body.append(s);
-
-    // $('#btn_pdf').click(function(){
-    //     buildPDF();
-    // });
+    $('#btn_pdf').click(function(){
+        pdf.buildPDF();
+    });
 
 });
